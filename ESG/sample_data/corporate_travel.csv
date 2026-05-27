@@ -1,0 +1,25 @@
+trip_id,employee_id,employee_name,department,booking_date,travel_date,category,origin,destination,cabin_class,distance_km,nights,vendor,amount,currency,purpose
+TRP-10041,EMP-2201,Priya Sharma,Engineering,2024-01-04,2024-01-08,FLIGHT,BOM,DEL,,,,IndiGo,8200,INR,Client Meeting
+TRP-10042,EMP-2201,Priya Sharma,Engineering,2024-01-04,2024-01-08,HOTEL,,,,,2,Marriott Delhi,9800,INR,Client Meeting
+TRP-10043,EMP-2201,Priya Sharma,Engineering,2024-01-04,2024-01-10,FLIGHT,DEL,BOM,ECONOMY,,,, IndiGo,7900,INR,Client Meeting
+TRP-10044,EMP-2089,Arjun Mehta,Sales,2024-01-10,2024-01-12,FLIGHT,BOM,SIN,BUSINESS,,,Singapore Airlines,42000,INR,Partnership Summit
+TRP-10045,EMP-2089,Arjun Mehta,Sales,2024-01-10,2024-01-12,HOTEL,,,,,3,Marriott Singapore,38000,INR,Partnership Summit
+TRP-10046,EMP-2089,Arjun Mehta,Sales,2024-01-10,2024-01-15,FLIGHT,SIN,BOM,BUSINESS,,,Singapore Airlines,41500,INR,Partnership Summit
+TRP-10047,EMP-2310,Neha Kulkarni,Finance,2024-01-15,2024-01-15,GROUND_TAXI,PNQ,PNQ,,28,,Ola Corporate,850,INR,Vendor Visit
+TRP-10048,EMP-2145,Rohit Desai,Operations,2024-01-18,2024-01-20,FLIGHT,DEL,BLR,ECONOMY,,,Air India,6500,INR,Operations Review
+TRP-10049,EMP-2145,Rohit Desai,Operations,2024-01-18,2024-01-20,HOTEL,,,,,1,Taj Bangalore,7200,INR,Operations Review
+TRP-10050,EMP-2145,Rohit Desai,Operations,2024-01-18,2024-01-21,FLIGHT,BLR,DEL,ECONOMY,,,Air India,6200,INR,Operations Review
+TRP-10051,EMP-2201,Priya Sharma,Engineering,2024-02-05,2024-02-07,FLIGHT,BOM,HYD,ECONOMY,,,IndiGo,5400,INR,Tech Conference
+TRP-10052,EMP-2201,Priya Sharma,Engineering,2024-02-05,2024-02-07,HOTEL,,,,,2,Novotel Hyderabad,8400,INR,Tech Conference
+TRP-10053,EMP-2201,Priya Sharma,Engineering,2024-02-05,2024-02-09,FLIGHT,HYD,BOM,ECONOMY,,,IndiGo,5200,INR,Tech Conference
+TRP-10054,EMP-2445,Ananya Singh,HR,2024-02-12,2024-02-12,GROUND_TAXI,BOM,BOM,,15,,Uber Corporate,420,INR,Airport Transfer
+TRP-10055,EMP-2089,Arjun Mehta,Sales,2024-02-18,2024-02-20,FLIGHT,BOM,LHR,BUSINESS,,,British Airways,185000,INR,Global Sales Conf
+TRP-10056,EMP-2089,Arjun Mehta,Sales,2024-02-18,2024-02-20,HOTEL,,,,,4,Hilton London,95000,INR,Global Sales Conf
+TRP-10057,EMP-2089,Arjun Mehta,Sales,2024-02-18,2024-02-24,FLIGHT,LHR,BOM,BUSINESS,,,British Airways,182000,INR,Global Sales Conf
+TRP-10058,EMP-2310,Neha Kulkarni,Finance,2024-03-01,2024-03-03,FLIGHT,BOM,MAA,ECONOMY,,,SpiceJet,4800,INR,Audit Meeting
+TRP-10059,EMP-2310,Neha Kulkarni,Finance,2024-03-01,2024-03-03,HOTEL,,,,,1,ITC Grand Chennai,6500,INR,Audit Meeting
+TRP-10060,EMP-2310,Neha Kulkarni,Finance,2024-03-01,2024-03-04,FLIGHT,MAA,BOM,ECONOMY,,,SpiceJet,4600,INR,Audit Meeting
+TRP-10061,EMP-2501,Vikram Nair,Engineering,2024-03-10,2024-03-10,GROUND_TAXI,BLR,BLR,,22,,Ola Corporate,680,INR,Client Site Visit
+TRP-10062,EMP-2145,Rohit Desai,Operations,2024-03-15,2024-03-17,FLIGHT,DEL,CCU,ECONOMY,,,Air India,5900,INR,Supplier Audit
+TRP-10063,EMP-2145,Rohit Desai,Operations,2024-03-15,2024-03-17,HOTEL,,,,,2,Hyatt Kolkata,11000,INR,Supplier Audit
+TRP-10064,EMP-2145,Rohit Desai,Operations,2024-03-15,2024-03-18,FLIGHT,CCU,DEL,ECONOMY,,,Air India,5700,INR,Supplier Audit
