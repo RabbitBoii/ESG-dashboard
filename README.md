@@ -14,7 +14,7 @@ Built as part of the Breathe ESG Tech Intern Assignment.
 
 ## Live Demo
 
-> **App:** [https://esg-dashboard-production-13b5.up.railway.app/]  
+> **App:** [https://esg-dashboard-zeta.vercel.app/]  
 > **API:** [https://esg-dashboard-production-13b5.up.railway.app/api/emissions/records/]
 
 ---
