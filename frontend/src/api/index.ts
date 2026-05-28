@@ -2,7 +2,7 @@ import axios from 'axios'
 import type { EmissionRecord, RecordDetail, Batch, UploadResult } from '../types'
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000/api',
+    baseURL: 'https://esg-dashboard-production-13b5.up.railway.app/api/',
 })
 
 export const uploadFile = (file: File, sourceType: string): Promise<{ data: UploadResult }> => {
