@@ -7,8 +7,8 @@ Built as part of the Breathe ESG Tech Intern Assignment.
 ---
 
 ## Screenshots
-![img1](./ss1.png)
-![img1](./ss2.png)
+![img1](./frontend/public/ss1.png)
+![img1](./frontend/public/ss2.png)
 
 ---
 
