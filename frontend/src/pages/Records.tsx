@@ -17,7 +17,7 @@ const SOURCE_COLOR: Record<string, string> = {
 export default function Records() {
     const [records, setRecords] = useState<EmissionRecord[]>([])
     const [loading, setLoading] = useState(true)
-    const [filters, setFilters] = useState({ source_type: '', scope: '', status: 'PENDING' })
+    const [filters, setFilters] = useState({ source_type: '', scope: '', status: '' })
     const navigate = useNavigate()
 
     useEffect(() => {
@@ -31,12 +31,13 @@ export default function Records() {
     const set = (key: string, val: string) => setFilters(f => ({ ...f, [key]: val }))
 
     const filterSelect = (label: string, key: string, options: string[]) => (
-        <div className="flex flex-col gap-1">
-            <label className="mono text-[10px] text-[#666] uppercase tracking-wider">{label}</label>
+        <div className="flex flex-col gap-1.5">
+            <label className="mono text-[10px] text-[#444] uppercase tracking-[0.12em] font-medium">{label}</label>
             <select
                 value={filters[key as keyof typeof filters]}
                 onChange={e => set(key, e.target.value)}
-                className="bg-[#1a1a1a] border border-[#2a2a2a] rounded px-3 py-1.5 text-xs text-[#e8e8e8] outline-none focus:border-[#444]"
+                className="min-w-[110px] bg-[#161616] border border-[#252525] rounded-md px-3 py-1.5 text-xs text-[#d0d0d0] outline-none cursor-pointer transition-colors duration-150 hover:border-[#333] focus:border-[#3a3a3a] appearance-none"
+                style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23555' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 10px center' }}
             >
                 {options.map(o => <option key={o} value={o}>{o || 'All'}</option>)}
             </select>
@@ -54,7 +55,7 @@ export default function Records() {
             </div>
 
             {/* filters */}
-            <div className="bg-[#111] border border-[#222] rounded-lg p-4 mb-4 flex gap-6 flex-wrap">
+            <div className="bg-[#0d0d0d] border border-[#1e1e1e] rounded-lg px-5 py-4 mb-4 flex gap-5 flex-wrap items-end">
                 {filterSelect('Source', 'source_type', SOURCES)}
                 {filterSelect('Scope', 'scope', SCOPES)}
                 {filterSelect('Status', 'status', STATUSES)}
