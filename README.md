@@ -6,10 +6,16 @@ Built as part of the Breathe ESG Tech Intern Assignment.
 
 ---
 
+## Screenshots
+![img1](./ss1.png)
+![img1](./ss2.png)
+
+---
+
 ## Live Demo
 
-> **App:** [your-railway-url.up.railway.app]  
-> **API:** [your-railway-url.up.railway.app/api/emissions/records/]
+> **App:** [https://esg-dashboard-production-13b5.up.railway.app/]  
+> **API:** [https://esg-dashboard-production-13b5.up.railway.app/api/emissions/records/]
 
 ---
 
